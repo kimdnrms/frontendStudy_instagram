@@ -1,0 +1,25 @@
+{
+  "name": "frontendStudy_instagram",
+  "version": "1.0.0",
+  "description": "Instagram clone with Express + Prisma + React + React Native",
+  "repository": "https://github.com/kimdnrms/frontendStudy_instagram.git",
+  "author": "kimdnrms <kimdnrms@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^6.0.14",
+    "graphql-yoga": "^1.18.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "merge-graphql-schemas": "^1.7.8",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
